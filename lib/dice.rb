@@ -7,6 +7,10 @@ class Dice
   def dice(number)
     array = []
     number.times { array.push(roll) }
-    array
+    puts array
   end
 end
+
+# Example code
+# dice = Dice.new
+# dice.dice(4)
